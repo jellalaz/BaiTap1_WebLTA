@@ -1,128 +1,128 @@
 body {
-    font-family: 'Roboto', sans-serif; /* Thiết lập font chữ cho toàn bộ trang web là Roboto */
-    background-color: #030303; /* Màu nền của trang là màu đen */
-    display: flex; /* Sử dụng flexbox để quản lý layout */
-    color: white; /* Màu chữ mặc định là màu trắng */
-    flex-direction: column; /* Các phần tử con sẽ được xếp theo chiều dọc */
-    justify-content: center; /* Canh giữa các phần tử con theo chiều dọc */
-    align-items: center; /* Canh giữa các phần tử con theo chiều ngang */
-    height: 100vh; /* Chiều cao của body là 100% chiều cao của viewport */
-    gap: 50px; /* Khoảng cách giữa các phần tử con là 50px */
+    font-family: 'Roboto', sans-serif;
+    background-color: #030303;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
 }
 
 .imagee {
-    width: 100px; /* Chiều rộng của hình ảnh là 100px */
-    height: 100px; /* Chiều cao của hình ảnh là 100px */
-    border-radius: 50%; /* Hình ảnh sẽ có viền tròn */
-    border: 2px solid #f03434; /* Viền của hình ảnh có màu đỏ */
-    display: block; /* Hiển thị như một khối */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #f03434;
+    display: block;
 }
 .imagee:hover {
-    box-shadow: 0 0 20px #f03434; /* Thêm hiệu ứng đổ bóng khi di chuột vào hình ảnh */
+    box-shadow: 0 0 20px #f03434;
 }
 
 .btn {
-    padding: 10px 20px; /* Đệm trong của nút */
-    font-size: 16px; /* Kích thước chữ của nút */
-    color: white; /* Màu chữ của nút */
-    background-color: #d38fa8; /* Màu nền của nút */
-    border-radius: 5px; /* Góc bo tròn của nút */
-    cursor: pointer; /* Con trỏ chuột sẽ thành hình bàn tay khi di chuột vào nút */
-    text-align: center; /* Canh giữa nội dung trong nút */
-    text-decoration: none; /* Xóa gạch chân của nút nếu có */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #d38fa8;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
 }
 .btn:hover {
-    background-color: #ce87c8; /* Thay đổi màu nền khi di chuột vào nút */
-    box-shadow: 0 0 20px #f03434; /* Thêm hiệu ứng đổ bóng khi di chuột vào nút */
+    background-color: #ce87c8;
+    box-shadow: 0 0 20px #f03434;
 }
 
 .info {
-    padding: 10px; /* Đệm trong của khối thông tin */
-    color: black; /* Màu chữ của khối thông tin */
-    cursor: pointer; /* Con trỏ chuột sẽ thành hình bàn tay khi di chuột vào nút */
-    background-color: white; /* Màu nền của khối thông tin */
-    border-radius: 10px; /* Góc bo tròn của khối thông tin */
-    text-align: center; /* Canh giữa nội dung trong khối thông tin */
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
 }
 .info:hover {
-    background-color: aqua; /* Thay đổi màu nền khi di chuột vào khối thông tin */
-    box-shadow: 0 0 20px #f03434; /* Thêm hiệu ứng đổ bóng khi di chuột vào khối thông tin */
+    background-color: aqua;
+    box-shadow: 0 0 20px #f03434;
 }
 
 .project {
-    background-color: black; /* Màu nền của khối dự án */
-    padding: 20px; /* Đệm trong của khối dự án */
-    border-radius: 8px; /* Góc bo tròn của khối dự án */
-    width: 300px; /* Chiều rộng của khối dự án */
-    height: 300px; /* Chiều cao của khối dự án */
-    text-align: center; /* Canh giữa nội dung trong khối dự án */
-    border: 1px solid #262628; /* Viền của khối dự án có màu xám đậm */
-    font-weight: bold; /* Chữ trong khối dự án sẽ in đậm */
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid #262628;
+    font-weight: bold;
 }
 .project:hover {
-    box-shadow: 0 0 20px #262628; /* Thêm hiệu ứng đổ bóng khi di chuột vào khối dự án */
+    box-shadow: 0 0 20px #262628;
 }
 .project h2 {
-    margin-top: 10px; /* Khoảng cách trên của tiêu đề trong khối dự án */
-    text-align: left; /* Canh trái nội dung của tiêu đề */
+    margin-top: 10px;
+    text-align: left;
 }
 .project p {
-    font-size: 14px; /* Kích thước chữ của đoạn văn bản trong khối dự án */
-    color: #AAAAAA; /* Màu chữ của đoạn văn bản */
-    text-align: left; /* Canh trái nội dung của đoạn văn bản */
+    font-size: 14px;
+    color: #AAAAAA;
+    text-align: left;
 }
 .project form {
-    display: flex; /* Sử dụng flexbox để quản lý layout trong form */
-    flex-direction: column; /* Các phần tử trong form sẽ được xếp theo chiều dọc */
-    gap: 3px; /* Khoảng cách giữa các phần tử trong form */
-    text-align: left; /* Canh trái nội dung trong form */
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: left;
 }
 
 .project input[type="text"],
 select {
-    margin-bottom: 15px; /* Khoảng cách dưới của các ô input và select */
-    padding: 10px; /* Đệm trong của các ô input và select */
-    border: 1px solid #444; /* Viền của các ô input và select có màu xám đậm */
-    border-radius: 4px; /* Góc bo tròn của các ô input và select */
-    background-color: #333; /* Màu nền của các ô input và select */
-    color: #fff; /* Màu chữ của các ô input và select */
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
 }
 
 .btn1 {
-    display: flex; /* Sử dụng flexbox để quản lý layout trong khối nút */
-    justify-content: space-between; /* Canh đều khoảng cách giữa các nút */
+    display: flex;
+    justify-content: space-between;
 }
 .btn1 button {
-    padding: 10px 20px; /* Đệm trong của các nút */
-    font-size: 16px; /* Kích thước chữ của các nút */
-    border-radius: 8px; /* Góc bo tròn của các nút */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
 }
 .cancel {
-    background-color: #050505; /* Màu nền của nút hủy */
-    color: white; /* Màu chữ của nút hủy */
-    cursor: pointer; /* Con trỏ chuột sẽ thành hình bàn tay khi di chuột vào nút */
-    border: 1px solid #262628; /* Viền của nút hủy */
+    background-color: #050505;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #262628;
 }
 .cancel:hover {
-    background-color: #262628; /* Thay đổi màu nền khi di chuột vào nút hủy */
-    color: white; /* Màu chữ của nút hủy khi di chuột vào */
+    background-color: #262628;
+    color: white;
 }
 .deploy {
-    background-color: #faf6f6; /* Màu nền của nút deploy */
-    color: rgb(14, 13, 13); /* Màu chữ của nút deploy */
-    cursor: pointer; /* Con trỏ chuột sẽ thành hình bàn tay khi di chuột vào nút */
-    border: 1px solid #262628; /* Viền của nút deploy */
+    background-color: #faf6f6;
+    color: rgb(14, 13, 13);
+    cursor: pointer;
+    border: 1px solid #262628;
 }
 .deploy:hover {
-    background-color: #262628; /* Thay đổi màu nền khi di chuột vào nút deploy */
-    color: white; /* Màu chữ của nút deploy khi di chuột vào */
+    background-color: #262628;
+    color: white;
 }
 .loading {
-    width: 50px; /* Chiều rộng của biểu tượng loading */
-    height: 50px; /* Chiều cao của biểu tượng loading */
-    border: 5px solid #050505; /* Viền của biểu tượng loading */
-    border-top: 5px solid #3498db; /* Viền trên có màu xanh dương */
-    border-right: 5px solid #3498db; /* Viền phải có màu xanh dương */
-    border-bottom: 5px solid #3498db; /* Viền dưới có màu xanh dương */
-    border-radius: 50%; /* Viền tròn của biểu tượng loading */
+    width: 50px;
+    height: 50px;
+    border: 5px solid #050505;
+    border-top: 5px solid #3498db;
+    border-right: 5px solid #3498db;
+    border-bottom: 5px solid #3498db;
+    border-radius: 50%;
 }
